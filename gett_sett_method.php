@@ -23,13 +23,13 @@ class Login
     public function login_sucess()
     {
 
-        return ($this->email == "fredericodulio@gmail.com") && ($this->password == 123) ?
-            "Welcome<br>{$this->email}"  :  "your email or password is incorrect\n";
+        return ($this->email == "exemplo@gmail.com") && ($this->password == 123) ?
+            "Welcome<br>{$this->email}"  :  "incorret password or email<br>";
     }
 }
 
 
 $logar = new Login;
-$logar->setEmail("fredericodulio@gmail.com");
+$logar->setEmail("exemplo@gmail.com");
 $logar->setPassword(123);
 echo $logar->login_sucess();
