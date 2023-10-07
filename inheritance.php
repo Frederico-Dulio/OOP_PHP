@@ -56,7 +56,7 @@ class Client extends Person
 
 $cliente = new Client;
 $cliente->setName("Frederico Dulio");
-$cliente->setEmail("fredericodulio@gmail.com");
-$cliente->setAge("24-12-2000");
+$cliente->setEmail("exemplo@gmail.com");
+$cliente->setAge("24-12-2004");
 
 echo $cliente->buy();
